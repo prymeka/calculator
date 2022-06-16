@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <header><h1>Calculator</h1></header>
+    <main>
+        <div id="display">
+          <div id="last-input"></div>
+          <div id="operation-input"></div>
+          <div id="current-input"></div>
+        </div>
+        <div id="buttons-container">
+          <div id="special-buttons">
+            <button id="clear-button"><h2>AC</h2></button>
+            <button id="delete-button"><h2>Delete</h2></button>
+          </div>
+          <div id="lower-buttons">
+            <div id="number-buttons-container">
+              <button class="number-button" value="7"><h2>7</h2></button>
+              <button class="number-button" value="8"><h2>8</h2></button>
+              <button class="number-button" value="9"><h2>9</h2></button>
+              <button class="number-button" value="4"><h2>4</h2></button>
+              <button class="number-button" value="5"><h2>5</h2></button>
+              <button class="number-button" value="6"><h2>6</h2></button>
+              <button class="number-button" value="3"><h2>3</h2></button>
+              <button class="number-button" value="2"><h2>2</h2></button>
+              <button class="number-button" value="1"><h2>1</h2></button>
+              <button class="number-button" value="0"><h2>0</h2></button>
+              <button id="period-button"><h2>.</h2></button>
+              <button id="sign-button"><h2>&plusmn;</h2></button>
+            </div>
+            <div id="operation-buttons-container">
+              <button class="operation-button" value="÷"><h2>÷</h2></button>
+              <button class="operation-button" value="×"><h2>×</h2></button>
+              <button class="operation-button" value="−"><h2>−</h2></button>
+              <button class="operation-button" value="+"><h2>+</h2></button>
+              <button id="equals-button"><h2>=</h2></button>
+            </div>
+          </div>
+        </div>
+    </main>
+  </body>
+</html>
