@@ -125,6 +125,8 @@ function evaluate() {
         } else {
             output = +leftOperand / +rightOperand;
         }
+    } else {
+      output = "";
     }
     
     return output.toString();
